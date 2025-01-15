@@ -10,11 +10,6 @@
 #define CPU_VALID_FLAGS (1 << 2)
 #define CPU_VALID_ALL (CPU_VALID_PC | CPU_VALID_SP | CPU_VALID_FLAGS)
 
-typedef enum {
-  RESET_POWER_ON,
-  RESET_SOFTWARE,
-} ResetType;
-
 typedef struct {
   // CPU registers
   struct {
